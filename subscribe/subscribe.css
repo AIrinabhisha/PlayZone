@@ -1,0 +1,50 @@
+.su-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    
+
+    
+  }
+  
+  .su-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .su-container p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  .su-container a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .su-container a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  
+  .su-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #040e1a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .su-container button:hover {
+    background-color: #0056b3;
+  }
+  

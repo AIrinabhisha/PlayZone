@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.leftSide img {
+  height: 40px;
+  width: auto;
+}
+
+.rightSide {
+  display: flex;
+  gap: 20px;
+}
+
+.rightSide a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.rightSide a:hover {
+  background-color: #555;
+}

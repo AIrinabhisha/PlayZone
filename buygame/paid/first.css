@@ -1,0 +1,40 @@
+.first-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #dfa4a4;
+  }
+  
+  .side-navbar-first {
+    width: 500px;
+    text-align: center;
+  }
+  
+  .side-navbar-first img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .side-navbar-first button {
+    margin: 5px;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .side-navbar-first button:hover {
+    background-color: #0056b3;
+  }
+  
+  .side-navbar-first button:active {
+    background-color: #0056b3;
+    transform: translateY(1px);
+  }
+  
+  /* Add more styles as per your layout and design requirements */
+  

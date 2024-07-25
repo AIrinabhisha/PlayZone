@@ -1,0 +1,8 @@
+.lg-container{
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
+    width: 340px;
+    margin-top: 50px;
+    margin-left: 50px;
+}

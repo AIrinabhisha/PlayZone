@@ -1,0 +1,22 @@
+/* landing.css */
+
+.header {
+  padding: 100px;
+ 
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.header h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}

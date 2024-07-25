@@ -1,0 +1,75 @@
+.container-paid {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #decccc;
+    box-shadow: 0 0 10px #cdaaaa1a;
+    font-family: Arial, sans-serif;
+    background-color: #decccc;
+    
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .product-details {
+    margin-bottom: 20px;
+  }
+  
+  .payment-form {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  .order-summary {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .order-summary table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-summary th,
+  .order-summary td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .order-summary th {
+    text-align: left;
+  }
+  

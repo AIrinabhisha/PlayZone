@@ -1,0 +1,84 @@
+/* Container for the entire view */
+.container-view {
+  padding: 20px;
+  background-color: #f9f9f9;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style for each book */
+.book {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Title of the book */
+.book b {
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Description of the book */
+.book p {
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Labels for phone number and email ID */
+.book label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Price span */
+.book span {
+  display: block;
+  margin-top: 5px;
+  color: #e91e63;
+  font-weight: bold;
+}
+
+/* Style for the rewards section */
+.book h6 {
+  margin-top: 20px;
+  font-size: 1em;
+  color: #444;
+}
+
+/* Rewards details */
+.book b {
+  display: block;
+  margin-top: 5px;
+  color: #ff9800;
+}
+
+/* Early access text */
+.book p {
+  margin-top: 5px;
+  color: #666;
+}
+
+/* Style for the add-button */
+.add-button {
+  margin-top: 20px;
+}
+
+.add-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.add-button a:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,16 @@
+.card-love{
+    position: relative;
+}
+.card-love img{
+    width: 50%;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 6px
+}
+.card-love  .front{
+    transform: rotateY(90deg);
+    position: absolute;
+}
+.flipped .front{
+    transform: rotateY(0deg);
+}

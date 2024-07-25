@@ -1,0 +1,47 @@
+:root {
+    --board-background: none;
+    --border-color: #f6546a;
+    --border-thickness: 5px;
+}
+
+.board {
+    width: 30vw;
+    height: 50%;
+    background-color: var(--board-background);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.input {
+    height: 33.33%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(83, 30, 30);
+    font-family: "Bellefair", serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 6rem;
+    box-sizing: border-box;
+}
+
+.input-1,
+.input-2,
+.input-4,
+.input-5,
+.input-7,
+.input-8 {
+    border-right: var(--border-thickness) dashed var(--border-color);
+}
+
+.input-1,
+.input-2,
+.input-3,
+.input-4,
+.input-5,
+.input-6 {
+    border-bottom: var(--border-thickness) dashed var(--border-color);
+}
